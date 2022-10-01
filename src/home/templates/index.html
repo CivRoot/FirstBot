@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Furniture Bot</title>
-</head>
-<body>
-Запуск бота - плановая загрузка
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %} Main {% endblock %}
+
+{% block body %}
+<ul>
+    <li>{% for item in data %} {{data}}
+    </li>
+</ul>
+{% endfor %}
+{% endblock %}
