@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c7221a15-fe45-4391-a466-f6d182e0dff9" name="Changes" comment="Modified view/base/index files added setting dependencies in proc&amp;requirement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
