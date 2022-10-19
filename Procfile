@@ -1,6 +1,6 @@
 web: gunicorn application:app
 web: pipenv run python src/manage.py runserver $PORT
-web: gunicorn FirstBot.wsgi:application --log-file - --log-level debug
-web: gunicorn FirstBot.wsgi --log-file -
-web: gunicorn FirstBot.wsgi
-web: gunicorn FirstBot.src.wsgi
+web: gunicorn firsfurniturebot.wsgi:application --log-file - --log-level debug
+web: gunicorn firsfurniturebot.wsgi --log-file -
+web: gunicorn firsfurniturebot.wsgi
+web: gunicorn firsfurniturebot.src.wsgi
