@@ -4,8 +4,8 @@
 
 {% block body %}
 <ul>
-    <li>{% for item in data %} {{data}}
-    </li>
+    {% for item in data %}
+    <li> {{item}}</li>
+    {% endfor%}
 </ul>
-{% endfor %}
 {% endblock %}
